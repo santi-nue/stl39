@@ -14,6 +14,7 @@ jobs:
               pip install --user --upgrade Cython virtualenv
               pip install --user buildozer
               export PATH=$PATH:~/.local/bin/
+              cd Android_PreBuild
               buildozer -v android debug
           - name: Upload artifacts
             uses: actions/upload-artifact@v2
