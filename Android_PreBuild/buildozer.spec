@@ -1,4 +1,8 @@
 [app]
+android.ndk = 25b
+# android.ndk_api = 31 #DONT EMABLE THIS, BREAKS
+android.minapi = 21
+android.api = 33
 
 # (str) Title of your application
 title = Number Base Converter
