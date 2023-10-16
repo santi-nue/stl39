@@ -42,7 +42,9 @@ version = 0.1
 # comma separated e.g. requirements = sqlite3,kivy
 # requirements = python3,kivy==2.0.0,kivymd==0.104.1,sdl2_ttf==2.0.15,pillow
 # requirements = kivy==2.2.0,python3==3.8.15,png,openssl,kivymd==1.1.1,sdl2_ttf==2.0.15,jnius,pillow==9.3.0,android,packaging
-requirements = kivy==2.2.0,python3==3.8.15,png,openssl,requests,jnius,plyer,android,mido,packaging,pretty_midi,pychord,numpy
+# requirements = kivy==2.2.0,python3==3.8.15,png,openssl,requests,jnius,plyer,android,mido,packaging,pretty_midi,pychord,numpy
+requirements = kivy==2.1.0,kivymd==1.1.1,python3==3.8.15,png,openssl,requests,jnius,plyer,android,mido,packaging,pretty_midi,pychord,numpy
+
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
