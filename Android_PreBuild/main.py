@@ -1,5 +1,5 @@
 import kivy
-kivy.require('2.2.0')
+kivy.require('2.1.0')
 import kivymd
 
 from kivymd.uix.screen import MDScreen
