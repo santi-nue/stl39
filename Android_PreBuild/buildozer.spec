@@ -11,13 +11,13 @@ title = Number Base Converter
 package.name = baseConverter
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = mariyasha.com
+package.domain = com.gnethomelinux
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,kv,atlas,json
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -41,7 +41,8 @@ version = 0.1
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
 # requirements = python3,kivy==2.0.0,kivymd==0.104.1,sdl2_ttf==2.0.15,pillow
-requirements = kivy==2.2.0,python3==3.8.15,png,openssl,kivymd==1.1.1,sdl2_ttf==2.0.15,jnius,pillow==9.3.0,android,packaging
+# requirements = kivy==2.2.0,python3==3.8.15,png,openssl,kivymd==1.1.1,sdl2_ttf==2.0.15,jnius,pillow==9.3.0,android,packaging
+requirements = kivy==2.2.0,python3==3.8.15,png,openssl,requests,jnius,plyer,android,mido,packaging,pretty_midi,pychord,numpy
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
